@@ -1,0 +1,19 @@
+.flex-container{
+    display:flex;
+    
+    
+    
+    align-content: center;
+    justify-content: space-between;
+}
+body{
+    background-color: burlywood;
+}
+.flex-item{
+    
+    display: flex;
+    flex-direction:row;
+    background-color: orangered;
+    flex-wrap: wrap;
+    
+}
