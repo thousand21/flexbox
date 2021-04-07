@@ -1,19 +1,30 @@
 .flex-container{
     display:flex;
+    height: 1000px;
     
     
-    
-    align-content: center;
-    justify-content: space-between;
-}
-body{
+    align-items: center;
+    justify-content: center;
     background-color: burlywood;
+    
+   
 }
+
 .flex-item{
     
-    display: flex;
-    flex-direction:row;
+   /*  display: flex; */
+   /*  flex-direction:row; */
     background-color: orangered;
-    flex-wrap: wrap;
+    border: red solid;
+    height: 150px;
+    padding: 50px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    
     
 }
+/* section{
+    height: 700px;
+}
+ */
